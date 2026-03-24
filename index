@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Social Networks ID Extractor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy - Social Networks ID Extractor</h1>
+        <div class="date">Last updated: March 24, 2026</div>
+
+        <h2>1. Data Collection</h2>
+        <p>Social Networks ID Extractor is a Chrome extension that extracts publicly visible profile information from social media platforms. The extension collects the following data ONLY when the user manually enters a profile URL and clicks "Get Account Data":</p>
+        <ul>
+            <li><strong>Account ID</strong> - The unique identifier of the social media profile</li>
+            <li><strong>Full Name</strong> - The profile holder's displayed name</li>
+            <li><strong>Profile URL</strong> - The web address of the profile</li>
+            <li><strong>Gender</strong> - When publicly available on the profile</li>
+            <li><strong>Additional metadata</strong> - Publicly visible profile information</li>
+        </ul>
+
+        <h2>2. How Data is Processed</h2>
+        <ul>
+            <li>All data extraction happens <strong>locally in the user's browser</strong></li>
+            <li>Data is extracted only on <strong>explicit user action</strong> (clicking the "Get Account Data" button)</li>
+            <li>No data is sent to external servers or third parties</li>
+            <li>No data is stored persistently or shared with anyone</li>
+            <li>Data is displayed only to the user and disappears when the extension popup is closed</li>
+        </ul>
+
+        <h2>3. Permissions Used</h2>
+        <p>The extension uses the following permissions solely for its core functionality:</p>
+        <ul>
+            <li><strong>activeTab</strong> - To access the current tab only when the user activates the extension</li>
+            <li><strong>scripting</strong> - To inject content scripts that extract profile data on user command</li>
+            <li><strong>host permissions</strong> - Limited to facebook.com, instagram.com, twitter.com, and tiktok.com to enable data extraction</li>
+        </ul>
+
+        <h2>4. Data Sharing</h2>
+        <p><strong>No data is shared, sold, or transferred to any third party.</strong> All processing remains local to the user's device.</p>
+
+        <h2>5. Your Rights</h2>
+        <p>Since all data processing occurs locally and no data is stored or transmitted, no user data is retained by the developer. You maintain full control over your information at all times.</p>
+
+        <h2>6. Contact</h2>
+        <p>If you have questions about this privacy policy, please contact the developer at:</p>
+        <p><strong>Boufenneche Laid</strong><br>
+        Email: [your-email-here]</p>
+
+        <h2>7. Changes to This Policy</h2>
+        <p>Any updates to this privacy policy will be reflected by the "Last updated" date at the top of this page.</p>
+    </div>
+</body>
+</html>
